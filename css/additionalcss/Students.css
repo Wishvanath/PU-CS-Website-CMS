@@ -1,0 +1,263 @@
+.title-heading lb{
+    border: 3px solid #005b7f;
+    font-size: 25px;
+    padding: 8px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #005b7f;
+    
+}
+.title-heading{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+body{
+	background-color: #dcedeb;
+    font-size: 18px;
+    overflow-x: hidden;
+    font-family: 'Open Sans' , sans-serif;
+    text-rendering:  optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+p{
+	font-family: "Times New Roman", Times, Serif;
+	font-size: 18px;
+	padding: 5px;
+}
+#student_body{
+	margin-top: 20px;
+}
+#student_about{
+	height: 600px;
+	/*border-right:2px solid #3F8487;*/
+	
+}
+#student_portal hr{
+	border:1px solid #f48b0b;
+	margin-bottom: 30px;
+}
+#student_portal h3{
+	color: #0484AE;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+}
+.student_image img{
+	width: 100%;
+	/*box-shadow: 3px 3px 3px 3px #687575;*/
+	box-shadow: 2px 2px 2px 2px #687575;
+	padding: 3px;
+	margin-top: 10px;
+	margin-bottom: 12px;
+
+}
+/* for the login window*/
+.card-container.card {
+    
+    max-width: 590px;
+	padding: 40px 40px;
+	margin-left: -26px;
+	max-height: 557px;
+	height: 444px;
+	margin-top: -11px;
+	margin-bottom: -11px;
+}
+
+.btn {
+    font-weight: 700;
+    height: 36px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+/*
+ * Card component
+ */
+.card {
+    background-color: #0E6780;
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/*
+ * Form styles
+ */
+.profile-name-card {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+}
+
+.reauth-email {
+    display: block;
+    color: #404040;
+    line-height: 2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin #inputEmail,
+.form-signin #inputPassword {
+    direction: ltr;
+    height: 44px;
+    font-size: 16px;
+}
+
+.form-signin input[type=email],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    border-color: rgb(104, 145, 162);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+}
+
+.btn.btn-signin {
+    /*background-color: #4d90fe; */
+    background-color: rgb(104, 145, 162);
+    /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+    padding: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+}
+
+.btn.btn-signin:hover,
+.btn.btn-signin:active,
+.btn.btn-signin:focus {
+    background-color: rgb(12, 97, 33);
+}
+
+.forgot-password {
+    color: rgb(205, 221, 59);
+
+}
+
+.forgot-password:hover,
+.forgot-password:active,
+.forgot-password:focus{
+    color: rgb(244, 249, 245);
+}
+
+/* end of the css login window*/
+.academic-heading h3{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	color: #0484AE;
+	padding-bottom: 20px;
+}
+.academic-heading{
+	margin-top: 50px;
+}
+.academic-content{
+	
+	color: black;
+	padding: 35px;
+	border: 1px solid #0D4064;
+	box-shadow:  2px 2px 2px 2px #687575;
+	margin-top: 10px;
+	background-color: #0484ae;
+	padding-bottom: 10px;
+}
+.academic-content a{
+	color: black;
+}
+
+
+.academic-content h4{
+	font-size:25px;
+	color:#040D14;
+	font-weight: bold;
+}
+.academic-content p{
+	font-size:21px;
+	color: #C8EC38;
+}
+#gen-res-img img{
+	width: 100%;
+	box-shadow: 2px 2px 2px 2px #687575;
+	padding: 3px;
+	margin-top: 50px;
+	margin-bottom: 12px;
+	
+}
+#student_portal{
+	border:1px solid #2CBBCC;
+	padding: 10px;
+}
+#outside-the-class h3{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	color: #0484AE;
+
+}
+.outside-class-heading{
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+#outside-the-class img{
+	width: 100%;
+}
+#outside-the-class p{
+	font-size: 20px;
+	padding: 12px 0px;
+	font-family: 'UbuntuCondensed-Regular';
+	color: #fff;
+	background-color: #0484AE;
+	text-align: center;
+}
+#outside-the-class p:hover{
+	background-color: #0b3361;
+}

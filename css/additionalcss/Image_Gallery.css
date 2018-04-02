@@ -1,0 +1,43 @@
+.title-heading lb{
+    border: 3px solid #005b7f;
+    font-size: 25px;
+    padding: 8px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #005b7f;
+    
+}
+.title-heading{
+    margin-top: 30px;
+}
+body{
+	
+}
+#image_gallary img{
+	width: 100%;
+	box-shadow: 2px 2px 2px 2px #687575;
+	padding: 2px;
+}
+#image_gallary img:hover{
+	transform: scale(1.10);
+	transition: all .4s ease-in-out;
+	opacity: 1;
+}
+#image_gallary{
+	margin-top: 40px;
+}
+#second-row img{
+	margin-top: 20px;
+}
+#third-row img{
+	margin-top: 20px;
+}
+#fourth-row img{
+	margin-top: 20px;
+}
+#eight-row,
+#seventh-row,
+#sixth-row,
+#fifth-row img{
+	margin-top: 20px;
+}

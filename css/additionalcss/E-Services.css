@@ -1,0 +1,26 @@
+.title-heading lb{
+    border: 3px solid #005b7f;
+    font-size: 25px;
+    padding: 8px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #005b7f;
+    
+}
+.title-heading{
+    margin-top: 30px;
+}
+body{
+	
+}
+.elearn
+{
+padding-top: 30px;
+}
+#eservice-pic
+{
+height: 100px;
+}
+.thumbnail:hover {
+border-color: #344f6e;
+}

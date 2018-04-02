@@ -1,0 +1,48 @@
+.title-heading lb{
+    border: 3px solid #005b7f;
+    font-size: 25px;
+    padding: 8px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #005b7f;
+    
+}
+.title-heading{
+    margin-top: 30px;
+}
+body{
+	background-color: #dcedeb;
+    font-size: 16px;
+    overflow-x: hidden;
+    font-family: 'Open Sans' , sans-serif;
+    text-rendering:  optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+#workshop-details{
+	margin-top: 30px;
+
+}
+#bigdata_descp,
+#python-descp,
+#iot-descp h3{
+	margin-top: 40px;
+}
+#bigdata-image img{
+	width: 100%;
+	margin-top: 15px;
+	box-shadow: 2px 2px 2px 2px;
+	
+	padding: 2px;
+}
+#python-image img{
+	margin-top: 15px;
+	box-shadow: 2px 2px 2px 2px;
+	width: 100%;
+	padding: 2px;
+}
+#iot-image img{
+	margin-top: 15px;
+	box-shadow: 2px 2px 2px 2px;
+	width: 100%;
+	padding: 2px;
+}

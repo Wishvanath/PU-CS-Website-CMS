@@ -1,0 +1,582 @@
+
+
+
+/*slider area*/
+
+.slider-row {
+    margin: 0;
+    padding: 0;
+}
+.slider{
+    background-color: transparent;
+    overflow: hidden;
+}
+.carousel-controll {
+
+}
+.carousel-innerr {
+    background: -webkit-linear-gradient(left, #000, blue);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #000, blue);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #000, blue);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #000, blue);
+    /* Standard syntax */
+}
+.item {
+    position: relative;
+}
+.jst {
+    position: absolute;
+    bottom: 21%;
+    left: 10%;
+}
+.carousel-controll .prev, .carousel-controll .next {
+    font-size: 18px;
+    padding: 0px 10px;
+    position: absolute;
+    border: solid #f48b0b 2px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 0;
+    color: #e7e7e7;
+    text-decoration: none;
+    transition: all .7s ease 0s;
+}
+.carousel-controll .next {
+    left: 26px;
+}
+.carousel-controll .prev:hover {
+    transition: all .7s ease 0s;
+    color: #fff;
+    background: rgba(244, 139, 11, 0.3);
+}
+
+.carousel-controll .next:hover {
+    transition: all .7s ease 0s;
+    color: #fff;
+    background: rgba(244, 139, 11, 0.3);
+}
+.ellipse-time {
+  border-width: 6px;
+  border-color: rgb( 244, 139, 11 );
+  border-style: solid;
+  background-color: rgba( 255, 255, 255, 0.6 );
+  border-radius: 50%;
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+  transition: all .7s ease 0s;
+}
+.ellipse-time h5 {
+    position: absolute;
+    top: 35PX;
+    left:10px;
+    color: #ff2b2b;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ellipse-time h6 {
+    position: absolute;
+    top: 65PX;
+    left:22px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ellipse-time:hover {
+    background-color: #344f6e;
+    background-color: rgba( 88, 166, 255, 0.8 );
+}
+/*HOD message, Quate and News Section*/
+.hqn {
+    background-color: #eeeeee;
+    padding: 10px;
+}
+.row-div {
+    margin-top: 40px;
+}
+.hodmsg{
+    background: transparent;
+    padding-left: 0;
+    padding-left: 0;
+    border-top: solid #6c6c6c 10px;
+}
+
+.hqn .msg-section {/*Common*/
+    height: 400px;
+    width: 100%;
+    background-color: #fff;
+    overflow: scroll;
+    font-size: 1px;  
+    padding: 10px;  
+}
+.hqn .hod_img{
+    width: 100%;
+    height:150px;
+}
+.hodmsg_content{
+    height: 250px;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    font-size: 14px;  
+    padding: 10px;
+}
+.hqn .hodmsg_content .readmore{
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+    float: right;
+    cursor: pointer;
+
+}
+.quote {
+    background: transparent;
+    padding-left: 0;
+    padding-left: 0;
+    border-top: solid #6c6c6c 10px;
+}
+.quote .quote_txt{
+    font-size: 14px;
+    color: #3d3d3d;
+}
+.-span{
+    color: #f48b0b;
+    font-weight: bold;
+    font-size: 30px;
+}
+.quote .author_txt{
+    font-size: 16px;
+    color: #3d3d3d;
+    float: right;
+}
+.news {
+     background: transparent;
+    padding-left: 0;
+    padding-left: 0;
+    border-top: solid #6c6c6c 10px;
+}
+.news .news_devide{
+    border-bottom: 1px solid #e4e3e3;
+    font-size: 14px;
+    padding: 12px 2
+}
+.hqn .hqn-head {
+    background-color: transparent;
+    font-family: 'BenchNine-Bold', sans-serif;
+    text-transform: uppercase;  
+    margin-top: 0;
+    padding: 14px 5px;
+    color: #ff463d;
+    font-size: 19px;
+    margin-bottom: 30px; 
+    text-decoration: none;
+}
+
+.hqn .morinfo {
+    font-size: 10px;
+    font-family: 'BenchNine-Bold', sans-serif;
+    float: right;
+    margin-top: 9px;
+    color: #191919;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    transition: all 0.7s ease 0s;
+}
+.hqn .morinfo .fa-long-arrow-right {
+    color: #f48b0b;
+}
+.hqn .morinfo:hover {
+    color: #f48b0b;
+    right: 10px;
+}
+}
+/* course offered by the department*/
+.packages h2 {
+    text-align: center;
+    color: #fff;
+
+}
+
+.packages i{
+    
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    padding: 28px 23px;
+    border-radius: 50%;
+    background-color: #0c3e71;
+    color: #fff;
+    margin-left: 0px;
+}
+
+
+
+
+.course_section {
+    
+    padding: 0px 0 80px;
+    text-align: center;
+    background-color: #012651;
+
+}
+.course_section h2{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'BenchNine-Regular';
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.course_section h4{
+    font-size: 22px;
+    color: #f48b0b;
+    font-family: 'Heebo-Regular';
+    text-transform: uppercase;
+    text-align: center;
+}
+.course_section p{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: #afafaf;
+    font-family: 'Heebo-Regular',sans-serif;
+}
+hr {
+    border: 1px solid #f48b0b;
+}
+.course_section .packages{
+    transition: all .7s ease 0s;
+    padding: 30px;
+    border: 1px solid #6f6666;
+    background-color: #e3eaef;
+    border-radius: 0px;
+    margin-top: 5px;
+}
+.course_section .packages:hover{
+    transition: all .7s ease 0s;
+    border: 1px solid;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.packages .fa{
+    
+    width: 100px;
+    height: 100px;
+}
+.packages .fa-laptop, .packages .fa-desktop, .packages .fa-cogs, .packages .fa-graduation-cap{
+  font-size: 50px;
+}
+.packages li {
+    width: 10px;
+    display: block;
+    padding: 5px;
+    
+}
+
+
+
+.packages p,
+.packages li {
+    color: #737373;
+    
+}
+.packages button {
+    margin-top: 10px;
+}
+.packages .btn {
+    border-radius: 0;
+}
+.packages .btn-get-det{
+    font-size: 15px;
+    color: #efefef;
+    width: 100px;
+    height: 35px;
+    border: solid #f48b0b 2px;
+    background-color: #feaf4e;
+    transition: all .7s ease 0s;
+}
+.packages .btn-get-det:hover{
+    color: #fff;
+    background-color: #f48b0b;
+    transition: all .7s ease 0s;
+}
+/********************Explore CS Department*******************/
+.explorecs {
+
+    padding: 20px;
+    overflow: hidden;
+}
+.explorecs h2{
+    color: #344f6e;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: 'BenchNine-Regular',sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+}
+.explorecs img {
+    border: solid red 6px;
+    border-radius: 0px;
+    align-self: center;
+}
+.explorecs a:hover{
+    color: #fff;
+}
+.cs-gallary {
+
+}
+.explorecs p {
+    font-size: 20px;
+    padding: 20px 0px;
+    font-family: 'UbuntuCondensed-Regular';
+    color: #fff;
+    background-color: #344f6e;
+    text-align: center;
+    transition: all .7s ease 0s;
+}
+.explorecs p:hover
+{
+    background-color: #0b3361;
+}
+.explorecs a {
+    text-decoration: none;
+}
+/******************************
+responsive area
+********************************/
+
+
+/* md */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+/* sm */
+}
+@media (min-width: 768px) and (max-width: 991px) {
+   .carousel-control .next {
+    font-size: 18px;
+    }
+
+    .ellipse-time {
+  border-width: 4px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.ellipse-time h5 {
+    top: 20PX;
+    left:6px;
+    color: #ff2b2b;
+    font-size: 14px;
+}
+.ellipse-time h6 {
+    position: absolute;
+    top: 40PX;
+    left:12px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+}
+    .course_section h2{
+    font-size: 30px;
+    }
+    .course_section p {
+        font-size: 15px;
+    }
+}
+/* xs */
+
+@media (min-width: 480px) and (max-width: 767px) {
+   .carousel-control .next {
+    font-size: 10px;
+    padding: 1px 5px;
+    top: 70%;
+}
+
+   .ellipse-time {
+  border-width: 1px;
+  border-radius: 0;
+  position: absolute;
+  width: 110px;
+  height: 55px;
+  transition: all .7s ease 0s;
+}
+.ellipse-time h5 {
+    position: absolute;
+    top: 0;
+    left:0;
+    padding: 0px 10px;
+    color: #ff2b2b;
+    font-size: 15px;
+    text-decoration: none;
+}
+.ellipse-time h6 {
+    position: absolute;
+    top: 20px;
+    left:0;
+    padding: 0px 10px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-decoration: none;
+}
+.jst {
+    bottom: 30%;
+}
+.carousel-controll .prev, .carousel-controll .next{
+    font-size: 15px;
+    padding: 0px 5px;
+}
+.carousel-controll .next{
+    left: 13px;
+}
+
+}
+/*
+
+/* XS Portrait */
+
+@media (max-width: 479px) {
+.jst {
+    bottom: 30%;
+    left: 5%;
+}
+.carousel-controll .prev, .carousel-controll .next{
+    font-size: 10px;
+    padding: 0px 5px;
+}
+.carousel-controll .next{
+    left: 8px;
+}
+
+   .ellipse-time {
+  border-width: 1px;
+  border-radius: 0;
+  width: 80px;
+  height: 30px;
+  top: 60%;
+}
+.ellipse-time h5 {
+    top: 0;
+    left:0;
+    padding: 0px 5px;
+    color: #ff2b2b;
+    font-size: 10px;
+}
+.ellipse-time h6 {    
+    display: none;
+}
+.hqn .morinfo {
+    font-size: 13px;
+    right: 15px;
+    }
+.course_section .packages:hover {
+    transition: all .7s ease 0s;
+    background-color: #fff;
+    border-radius: 20%;
+}
+.course_section h2{
+    font-size: 25px;
+    }
+    .course_section p {
+        font-size: 14px;
+    }
+    .explorecs h2{
+    font-size: 30px;
+}
+.explorecs p {
+    padding: 10px 0px;
+
+}
+
+}
+@media (max-width: 260px) {
+    .ellipse-time {
+        display: none;
+    }
+    .jst {
+        display: none;
+    }
+}
+/*======
+MODEL WINDOW
+=======*/
+/* The Modal (background) */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    color: red;
+    margin: auto;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0;} 
+    to {top:0; opacity:1;}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0;}
+    to {top:0; opacity:1;}
+}
+
+/* The Close Button */
+.close {
+    color: #000;
+    float: right;  
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid #000;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 10px;
+    background-color: #133762;
+    border-bottom: 5px solid #f48b0b;
+    color: white;
+}
+.model-header h3{
+    color: #000;
+}
+.modal-body {padding: 40px 35px 25px 25px;
+}

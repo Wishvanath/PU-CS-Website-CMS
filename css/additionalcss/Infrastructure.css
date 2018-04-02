@@ -1,0 +1,76 @@
+.title-heading lb{
+    border: 3px solid #005b7f;
+    font-size: 25px;
+    padding: 8px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #005b7f;
+    
+}
+.title-heading{
+    margin-top: 30px;
+}
+body{
+	
+}
+#mca_lab_image img{
+	width: 100%;
+	box-shadow: 2px 2px 2px 2px;
+	padding: 2px;
+	margin-top: 23px;
+	margin-bottom: 12px;
+}
+#mca_lab_descp,
+#mtech_lab_descp,
+#class_descp,
+#canteen_descp,
+#parking_descp,
+#lift_descp,
+#seminar_descp{
+	margin-top: 100px;
+	padding: 10px;
+	font-size: 16px;
+}
+#mtech_lab_image img{
+	width: 100%;
+	height: 100%;
+	box-shadow: 2px 2px 2px 2px;
+	padding: 2px;
+	margin-top: 23px;
+	margin-bottom: 12px;
+}
+#seminar_hall img{
+	width: 100%;
+	box-shadow: 2px 2px 2px 2px;
+	padding: 2px;
+	margin-top: 23px;
+	margin-bottom: 12px;
+}
+#class_image img{
+	width: 100%;
+	box-shadow: 2px 2px 2px 2px;
+	padding: 2px;
+	margin-top: 23px;
+	margin-bottom: 12px;
+}
+#canteen_image img{
+	width: 100%;
+	box-shadow: 2px 2px 2px 2px;
+	padding: 2px;
+	margin-top: 23px;
+	margin-bottom: 12px;
+}
+#parking_image img{
+	width: 100%;
+	box-shadow: 2px 2px 2px 2px;
+	padding: 2px;
+	margin-top: 23px;
+	margin-bottom: 12px;
+}
+#lift_image img{
+	width: 100%;
+	box-shadow: 2px 2px 2px 2px;
+	padding: 2px;
+	margin-top: 23px;
+	margin-bottom: 12px;
+}

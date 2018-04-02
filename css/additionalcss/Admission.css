@@ -1,0 +1,64 @@
+body {
+    background-color: #dcedeb;
+    font-size: 18px;
+    overflow-x: hidden;
+    font-family: 'Open Sans' , sans-serif;
+    text-rendering:  optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    
+} 
+p{
+	font-family: "Times New Roman", Georgia, Serif;
+}
+.title-heading lb{
+    border: 3px solid #005b7f;
+    font-size: 25px;
+    padding: 8px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #005b7f;
+    
+}
+.title-heading{
+    margin-top: 30px;
+}
+
+.admission-description h3{
+	font-size: 30px;
+}
+.panel-primary > .panel-heading{
+	background-color:#344f6e;
+	padding: 5px;
+
+}
+
+.addmission-descp{
+	margin-top: 20px;
+}
+.panel-body{
+	font-size: 18px;
+	background-color:#dcedeb;
+	font-family: "Times New Roman", Georgia, Serif;
+	padding-top: 20px;
+}
+.panel-body  span{
+	font-size: 18px;
+}
+.fa-long-arrow-right{
+	font-size: 20px;
+	color: black;
+}
+hr {
+    border: 1px solid #f48b0b;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.add_image img{
+	
+	box-shadow: 2px 2px 2px 2px;
+	width: 100%;
+	padding: 5px;
+}
+.add_image{
+	margin-top: 25px;
+}

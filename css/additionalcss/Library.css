@@ -1,0 +1,27 @@
+.title-heading lb{
+    border: 3px solid #005b7f;
+    font-size: 25px;
+    padding: 8px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #005b7f;
+    
+}
+.title-heading{
+    margin-top: 30px;
+}
+body{
+	background-color: #dcedeb;
+    font-size: 15px;
+    overflow-x: hidden;
+    font-family: 'Open Sans' , sans-serif;
+    text-rendering:  optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+
+p{
+	font-family: "Times New Roman", Times, Serif;
+	font-size: 17px;
+	
+}

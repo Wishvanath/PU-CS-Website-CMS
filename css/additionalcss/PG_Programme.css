@@ -1,0 +1,80 @@
+.title-heading lb{
+border: 3px solid #005b7f;
+font-size: 25px;
+padding: 8px;
+margin-top: 20px;
+font-weight: 500;
+color: #005b7f;
+
+}
+.title-heading{
+margin-top: 30px;
+}
+body{
+background-color: #dcedeb;
+
+}
+
+p{
+font-size: 17px;
+}
+h3{
+color: #04317a;
+}
+.nav li
+{
+font-size: 20px;
+color: #f48b0b;
+}
+.mca1
+{
+padding-right: 5px;
+}
+#mcapic{
+width:100%;
+height:40%;
+}
+#mtechpic{
+width:100%;
+height:40%;
+margin-top:20px;
+}
+#msclist{
+font-size: 15px;
+}
+
+hr
+{
+
+border:1px solid #f48b0b;
+}
+.download{
+margin-top: 20px;
+}
+.download a{
+font-weight: bold ;
+font-size: 15px;
+color:white;
+}
+#textcolor{
+color:#f48b0b;
+}
+
+.fee_btn {
+padding: 2px 20px;
+border: solid #f94825 2px;
+background-color: #ff6849;
+border-radius: 3px;
+color: black;
+transition: all .7s ease 0s;
+}
+.fee_btn:hover {
+background-color: #f94825;
+padding: 2px 25px;
+transition: all .7s ease 0s;
+}
+
+#pg_courses{
+	margin-top: 30px;
+
+}

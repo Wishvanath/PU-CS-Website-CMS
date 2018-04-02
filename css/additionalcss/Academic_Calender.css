@@ -1,0 +1,56 @@
+.title-heading lb{
+    border: 3px solid #005b7f;
+    font-size: 25px;
+    padding: 8px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #005b7f;
+    
+}
+.title-heading{
+    margin-top: 30px;
+}
+
+body {
+    background-color: #dcedeb;
+    font-size: 18px;
+    overflow-x: hidden;
+    font-family: 'Open Sans' , sans-serif;
+    text-rendering:  optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    
+}
+p{
+    font-family: "Times New Roman", Georgia, Serif;
+} 
+
+.academic_cal a{
+    float: right;
+    font-size: 20px;
+    color: #f48b0b;
+}
+.academic_cal hr{
+    border: 1px solid #f48b0b;
+}
+.academic_cal h3{
+    color: #344f6e;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.panel-heading{
+    font-size: 20px;
+    color:#294a70; 
+    background-color: aqua;
+    font-family: "Times New Roman",Times, serif;
+    
+}
+.panel-body{
+    background-color:#dcedeb;
+    font-family: "Times New Roman",Georgia, serif;
+}
+
+.panel-primary > .panel-heading{
+  background-color:#344f6e;
+  padding:10px;
+}
+
